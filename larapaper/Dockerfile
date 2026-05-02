@@ -1,6 +1,7 @@
 ARG BUILD_FROM=ghcr.io/usetrmnl/larapaper:latest
 FROM ${BUILD_FROM}
 
+USER root
 RUN apk add --no-cache jq
 
 COPY run.sh /ha_run.sh
