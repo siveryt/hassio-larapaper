@@ -1,0 +1,5 @@
+build_from:
+  amd64: ghcr.io/usetrmnl/larapaper:latest
+  aarch64: ghcr.io/usetrmnl/larapaper:latest
+  armv7: ghcr.io/usetrmnl/larapaper:latest
+  armhf: ghcr.io/usetrmnl/larapaper:latest
