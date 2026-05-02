@@ -36,4 +36,4 @@ fi
 ln -sfn /data/images /var/www/html/storage/app/public/images/generated
 
 # Hand off to the original container entrypoint
-exec /usr/local/bin/start-container
+exec docker-php-serversideup-entrypoint /init
